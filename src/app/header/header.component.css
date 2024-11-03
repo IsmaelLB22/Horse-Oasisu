@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #8B4513; /* Couleur marron pour le thème de l'équitation */
+}
+
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  color: #8B4513;
+}
+
+.nav-link {
+  font-family: 'Arial', sans-serif;
+  color: #8B4513;
+}
+
+.nav-link:hover {
+  color: #CD853F; /* Couleur marron clair pour le thème de l'équitation */
+}
+
+.btn-group .btn {
+  background-color: #f8f9fa; /* Couleur claire pour le fond */
+  border-color: #8B4513; /* Couleur marron pour le bord */
+  color: #8B4513; /* Couleur marron pour le texte */
+}
+
+.btn-group .btn:hover {
+  background-color: #CD853F; /* Couleur marron clair pour le thème de l'équitation */
+  border-color: #CD853F; /* Couleur marron clair pour le bord */
+  color: #fff; /* Couleur blanche pour le texte */
+}
+
+.btn-check:checked + .btn {
+  background-color: #CD853F; /* Couleur marron clair pour le thème de l'équitation */
+  border-color: #CD853F; /* Couleur marron clair pour le bord */
+  color: #fff; /* Couleur blanche pour le texte */
+}
